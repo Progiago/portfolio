@@ -1,0 +1,39 @@
+
+
+.navbar{
+    box-sizing: border-box;
+    height: 100px;
+    width: auto;
+    background-color: green;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    box-shadow: #1b1b1b7a .1em .3em .3em;
+    border-radius: 1px 1px 20px 20px;
+}
+
+.logo{
+    padding-left: 20px;
+    
+}
+.navlist {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    gap: 50px;
+    padding-right: 50px;
+}
+.navbarlink{
+    
+    
+}
+.links{
+    text-decoration: none;
+    color: black
+}
+
+.links:active{
+    color: blue;
+}
